@@ -1,0 +1,83 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 14px;
+    list-style: none;
+    text-decoration: none;    
+}
+
+nav ul li a{
+    font-weight: bold;
+    color: rgb(2, 44, 44);
+}
+
+nav ul li a:hover{
+    color: rgb(3, 138, 93);
+    transition: all 300ms;
+    
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.712);
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 5%;
+    background-color: cadetblue;
+}
+main form{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 1px;
+    
+}
+
+main form input{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main form button{
+    margin: 10px 0;
+        padding: 10px;
+        border-radius: 14px;
+    }
+}
